@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@700&family=Rubik:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Index */
+
+/* VIDEO DEL INDEX */
+#myvideo{
+    width: 100%;
+    height: 100%;
+}
+/* TEXTO DE BIENVENIDA INDEX */
+.welcome{
+    font-family: 'Righteous';
+    position: absolute;
+    z-index: 1;
+    color: #e0e0e0;
+    left: 33%;
+    right: 33%;
+    top: 50%;
+    bottom: 50%;
+}
+/* BOTON DE CLICK DEL INDEX */
+.button-index{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #e0e0e0;
+    width: 100%;
+    padding: 20px;
+}
