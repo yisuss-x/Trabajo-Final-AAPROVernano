@@ -4,25 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Index */
+/* INDEX */
 
-/* VIDEO DEL INDEX */
-#myvideo{
+/* Video Del Index */
+.videos-fondos{
     width: 100%;
     height: 100%;
 }
-/* TEXTO DE BIENVENIDA INDEX */
+/* Texto de Bienvenida Iindex */
 .welcome{
     font-family: 'Righteous';
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    position: fixed;
     z-index: 1;
     color: #e0e0e0;
-    left: 33%;
-    right: 33%;
     top: 50%;
-    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-/* BOTON DE CLICK DEL INDEX */
+/* Boton de Click del Index */
 .button-index{
     position: fixed;
     bottom: 0;
@@ -30,4 +31,17 @@
     color: #e0e0e0;
     width: 100%;
     padding: 20px;
+}
+/* INICIO */
+.container-total{
+    display: flex;
+    justify-content: center;
+}
+.container-pag {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    min-width: 1280px;
+}
+.fondo-inicio {
+    position: fixed;
 }
