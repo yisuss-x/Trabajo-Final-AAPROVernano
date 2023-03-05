@@ -97,6 +97,23 @@ body{
 .foto-nav{
     width: 55px;
 }
+/* ANIMACION TITULO */
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 /* Titulos */
 .titulos-principales{
     text-align: center;
@@ -105,7 +122,7 @@ body{
 }
 /* Textos */
 .data{
-    color: var(--color-text);
+    color: var(--second-color-text);
 }
 /* CONTACTO */
 section{
@@ -220,7 +237,3 @@ footer .content{
 }
 
 
-
-
-
-/* CARRUSEL ANIMADO */
