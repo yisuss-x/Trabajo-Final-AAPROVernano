@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@700&family=Rubik:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Righteous&family=Roboto:wght@700&family=Rubik:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&family=Montserrat:ital,wght@1,600&family=Righteous&family=Roboto:wght@700&family=Rubik:ital,wght@1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +10,7 @@
     --celeste-claro: rgb(53, 170, 216);
     --color-text: #0e0e0e;
     --second-color-text: #e0e0e0;
+    --style-text-1:'Montserrat', sans-serif;
 }
 
 /* INDEX */
@@ -33,6 +34,7 @@
 }
 /* Boton de Click del Index */
 .button-index{
+    cursor: pointer;
     position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
@@ -43,6 +45,8 @@
 /* INICIO */
 body{
     background-image: url(../img/fondo-pagina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container-pag {
     background-color: rgba(53, 50, 50, 0.585);
@@ -98,31 +102,62 @@ body{
     width: 55px;
 }
 /* ANIMACION TITULO */
-h1 {
-    animation-duration: 3s;
+.inicio-foto, h1 {
+    animation-duration: 5s;
     animation-name: slidein;
-  }
-  
-  @keyframes slidein {
+}  
+@keyframes slidein {
     from {
       margin-left: 100%;
       width: 300%
     }
-  
+
     to {
       margin-left: 0%;
       width: 100%;
     }
   }
 /* Titulos */
+.inicio-foto{
+    width: 350px;
+}
 .titulos-principales{
+    font-family: 'Kanit';
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0 20px;
     color: var(--second-color-text);
 }
-/* Textos */
+/* Articulos / Textos */
 .data{
+    margin-top:15px;
+    font-family:var(--style-text-1);
     color: var(--second-color-text);
+}
+/* FOOTER */
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #0e0e0e;
+}
+footer .content{
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Iconos / Links contacto */
+.wa_we a{
+    position: fixed;
+    justify-content: end;
+    text-decoration: none;
+    background: rgba(53, 50, 50, 0.585);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    
 }
 /* CONTACTO */
 section{
@@ -219,21 +254,3 @@ button{
     font-size: 1em;
     font-weight: 600;
 }
-/* FOOTER */
-footer{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background: #0e0e0e;
-}
-footer .content{
-    max-width: 1350px;
-    margin: auto;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-
