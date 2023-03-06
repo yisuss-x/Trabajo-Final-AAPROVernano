@@ -5,10 +5,10 @@ button.addEventListener("click", () => {
     button = prompt("Ingrese su edad");
 
     if (button >= "18"){
-        window.location="./html/inicio.html"
+        window.location="../html/inicio.html"
     } else {
         alert("Por favor no comparta esta informacion, entrará bajo su propio riesgo");
-        window.location="./html/Inicio.html"
+        window.location="../html/Inicio.html"
     }
 });
 let facebook = document.querySelector(".fa-facebook-square")
