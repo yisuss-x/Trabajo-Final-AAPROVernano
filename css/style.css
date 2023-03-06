@@ -52,7 +52,6 @@ body{
     background-color: rgba(53, 50, 50, 0.585);
     max-width: 100%;
     margin: 20px 10%;
-    padding: 15px;
 }
 .fondos-html {
     position: fixed;
@@ -129,35 +128,56 @@ body{
 }
 /* Articulos / Textos */
 .data{
-    margin-top:15px;
+    margin-top: 15px;
+    padding: 15px;
     font-family:var(--style-text-1);
     color: var(--second-color-text);
 }
-/* FOOTER */
-footer{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background: #0e0e0e;
-}
-footer .content{
-    max-width: 1350px;
-    margin: auto;
-    padding: 20px;
+.videos{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 15px;
 }
-/* Iconos / Links contacto */
-.wa_we a{
-    position: fixed;
-    justify-content: end;
-    text-decoration: none;
-    background: rgba(53, 50, 50, 0.585);
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    
+iframe{
+    margin: 0 20px;
+    width: auto;
+}
+/* FOOTER */
+footer {
+    background-color: rgba(0, 0, 0, 0.636);
+    color: var(--color-text);
+    font-size: 16px;
+    }
+footer * {
+        font-family: "Poppins", sans-serif;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+}
+.row {
+    padding: 1em 1em;
+}
+.row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+}
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 10em;
+}
+div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+.social i {
+    color: #bccce7;
 }
 /* CONTACTO */
 section{

@@ -11,3 +11,45 @@ button.addEventListener("click", () => {
         window.location="./html/inicio.html"
     }
 });
+let facebook = document.querySelector(".fa-facebook-square")
+let instagram = document.querySelector(".fa-instagram-square")
+let whatsapp = document.querySelector(".fa-whatsapp-square")
+let twitter = document.querySelector(".fa-twitter-square")
+
+/* seguro de salir */
+facebook.addEventListener("click", () => {
+    facebook = confirm("Estas por salir de la pagina. Estas ¿seguro?");
+
+    if (facebook == true){
+        location.href = "https://www.facebook.com/";
+    } else {
+        alert("Por favor decida si ir o quedarse");
+    }
+});
+instagram.addEventListener("click", () => {
+    instagram = confirm("Estas por salir de la pagina. Estas ¿seguro?");
+
+    if (instagram == true){
+        location.href = "https://www.instagram.com/";
+    } else {
+        alert("Por favor decida si ir o quedarse");
+    }
+});
+whatsapp.addEventListener("click", () => {
+    whatsapp = confirm("Estas por salir de la pagina. Estas ¿seguro?");
+
+    if (whatsapp == true){
+        location.href = "http://wa.me/5493364613569?text=Necesito%20información";
+    } else {
+        alert("Por favor decida si ir o quedarse");
+    }
+});
+twitter.addEventListener("click", () => {
+    twitter = confirm("Estas por salir de la pagina. Estas ¿seguro?");
+
+    if (twitter == true){
+        location.href = "https://twitter.com/?lang=es";
+    } else {
+        alert("Por favor decida si ir o quedarse");
+    }
+});
