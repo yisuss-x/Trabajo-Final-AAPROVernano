@@ -178,6 +178,7 @@ div.social {
 }
 .social i {
     color: #bccce7;
+    cursor: pointer;
 }
 /* CONTACTO */
 section{

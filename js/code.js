@@ -5,16 +5,16 @@ button.addEventListener("click", () => {
     button = prompt("Ingrese su edad");
 
     if (button >= "18"){
-        window.location="../html/inicio.html"
+        window.location="../html/Inicio.html"
     } else {
         alert("Por favor no comparta esta informacion, entrará bajo su propio riesgo");
         window.location="../html/Inicio.html"
     }
 });
-let facebook = document.querySelector(".fa-facebook-square")
-let instagram = document.querySelector(".fa-instagram-square")
-let whatsapp = document.querySelector(".fa-whatsapp-square")
-let twitter = document.querySelector(".fa-twitter-square")
+let facebook = document.querySelector(".fa-facebook")
+let instagram = document.querySelector(".fa-instagram")
+let whatsapp = document.querySelector(".fa-whatsapp")
+let twitter = document.querySelector(".fa-twitter")
 
 /* seguro de salir */
 facebook.addEventListener("click", () => {
