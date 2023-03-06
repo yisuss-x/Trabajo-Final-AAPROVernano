@@ -8,7 +8,7 @@ button.addEventListener("click", () => {
         window.location="./html/inicio.html"
     } else {
         alert("Por favor no comparta esta informacion, entrará bajo su propio riesgo");
-        window.location="./html/inicio.html"
+        window.location="./html/Inicio.html"
     }
 });
 let facebook = document.querySelector(".fa-facebook-square")
