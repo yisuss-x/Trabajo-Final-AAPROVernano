@@ -11,6 +11,7 @@ button.addEventListener("click", () => {
         window.location="../html/Inicio.html"
     }
 });
+/* variables redes */
 let facebook = document.querySelector(".fa-facebook")
 let instagram = document.querySelector(".fa-instagram")
 let whatsapp = document.querySelector(".fa-whatsapp")
