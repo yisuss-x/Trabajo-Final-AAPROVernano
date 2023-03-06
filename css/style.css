@@ -102,6 +102,7 @@ body{
 }
 /* ANIMACION TITULO */
 .inicio-foto, h1 {
+    padding: 20px 0 20px;
     animation-duration: 5s;
     animation-name: slidein;
 }  
